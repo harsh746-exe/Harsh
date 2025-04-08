@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dependencies
 /node_modules
 /.pnp
@@ -51,3 +52,10 @@ next-env.d.ts
 .Trashes
 ehthumbs.db
 Thumbs.db 
+=======
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+>>>>>>> 53a442ba5de92e27c471bfa13a702026a7e9d53c
