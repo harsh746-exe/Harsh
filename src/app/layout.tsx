@@ -11,6 +11,28 @@ export const metadata: Metadata = {
   title: 'Harsh Dwivedi - Portfolio',
   description: 'Software engineer specializing in building exceptional digital experiences',
   manifest: '/assets/favicon/site.webmanifest',
+  openGraph: {
+    title: 'Harsh Dwivedi - Portfolio',
+    description: 'Software engineer specializing in building exceptional digital experiences',
+    url: 'https://harshdwivedi.vercel.app',
+    siteName: 'Harsh Dwivedi',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Harsh Dwivedi Portfolio',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Harsh Dwivedi - Portfolio',
+    description: 'Software engineer specializing in building exceptional digital experiences',
+    images: ['/opengraph-image'],
+  },
   icons: {
     icon: [
       {
