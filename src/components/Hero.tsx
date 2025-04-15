@@ -54,7 +54,7 @@ const Hero = ({ isPacmanActive, isSnakeActive, setIsPacmanActive, setIsSnakeActi
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-[rgb(var(--primary))] text-2xl sm:text-5xl font-bold mb-6"
         >
-          <TypeWriter text="Software Engineer & ML Enthusiast" delay={75} />
+          <TypeWriter text="Software Engineer & AI Enthusiast" delay={75} />
         </motion.h2>
         
         <motion.p
