@@ -1,0 +1,19 @@
+import { Award } from './types';
+
+export const awards: Award[] = [
+  {
+    title: 'IEEEE Fellow',
+    description: ['Association for Natural Language Processing'],
+    date: 'Feb. 2024',
+  },
+  {
+    title: 'Gogle CodeJam',
+    description: ['3rd place in Gogle CodeJam'],
+    date: 'Jul. 2013',
+  },
+  {
+    title: 'Millennium Hackaton',
+    description: ['won the best Inspirational Youth Awards'],
+    date: 'Oct. 2010',
+  },
+];

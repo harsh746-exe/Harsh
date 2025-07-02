@@ -14,7 +14,7 @@ const Contact = () => {
         setVisibility('contact', entry.isIntersecting);
       },
       {
-        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
       }
     );
 
@@ -36,7 +36,7 @@ const Contact = () => {
       className="min-h-screen flex items-center bg-[rgb(var(--background))]"
     >
       <div className="w-full">
-        <div className="max-w-4xl mx-auto px-8 py-32">
+        <div className="max-w-4xl mx-auto px-8 py-32 lg:pl-32 lg:pr-32">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -48,10 +48,12 @@ const Contact = () => {
               <span className="text-[rgb(var(--primary))] mr-4 font-mono">04.</span>
               What's Next?
             </h2>
-            <h3 className="text-4xl font-bold text-[rgb(var(--text-primary))] mb-6">Get In Touch</h3>
+            <h3 className="text-4xl font-bold text-[rgb(var(--text-primary))] mb-6">
+              Get In Touch
+            </h3>
             <p className="text-[rgb(var(--text-secondary))] mb-8">
-              I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
-              I'll try my best to get back to you!
+              I'm currently looking for new opportunities. Whether you have a question or just want
+              to say hi, I'll try my best to get back to you!
             </p>
             <a
               href="mailto:eharshdwivedi@gmail.com"
@@ -66,4 +68,4 @@ const Contact = () => {
   );
 };
 
-export default Contact; 
+export default Contact;
