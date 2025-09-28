@@ -3,15 +3,15 @@ import { Experience } from './types';
 export const experiences: Experience[] = [
   {
     company: 'iConsult Collaborative',
-    title: 'Team Lead & Full-Stack Developer',
+    title: 'Team Lead & Software Developer',
     duration: 'Mar 2025 – Present',
     points: [
-      'Led a 4-member Agile team, managing system architecture, backlog grooming, and code reviews, increasing delivery speed.',
-      'Developed and deployed a scalable, SEO-optimized web app using Next.js, React, and Tailwind CSS, achieving 45% faster load times and a Lighthouse SEO score of 95+.',
-      'Developed multi-floor, multi-date occupancy visualizations with Recharts to deliver real-time insights into gym equipment usage.',
-      'Architected client-side routing and state management using React Router and Context API to support seamless navigation.',
-      'Simulated backend services using AWS S3 and DynamoDB, and automated analytics data generation using Node.js scripts.',
-      'Implemented Git Actions CI/CD workflows, reducing deployment time by 40% and enabling zero-downtime production updates.',
+      'Leading an Agile team, streamlining sprint planning, backlog grooming, and PR workflows in Jira and GitLab to boost delivery velocity and improve architecture decision cycles.',
+      'Developed and deployed a scalable, SEO-optimized web app (Next.js, TypeScript, React, Tailwind CSS) with lazy loading and SSR, achieving a Lighthouse SEO score of 95+.',
+      'Implemented client-side routing and server-rendered navigation via Next.js App Router and Context API, improving load speed and in-app UX.',
+      'Built secure RESTful backend APIs and microservices for AWS DynamoDB with Cognito-based authentication, session management, and role-based access control.',
+      'Deployed containerized CI/CD workflows with GitHub Actions, Docker, and AWS EC2, cutting deployment time by 40% and enabling zero-downtime releases with automated rollback.',
+      'Developing a high-speed API layer for AWS ElastiCache (Redis) to support real-time queries and planning Apache Kafka integration for event-driven streaming.',
     ],
   },
   {
@@ -19,21 +19,21 @@ export const experiences: Experience[] = [
     title: 'AI Researcher',
     duration: 'Jan 2025 – Present',
     points: [
-      'Researching explainability in large language models by integrating token-level saliency into a retrieval-augmented generation (RAG) workflow.',
-      'Applied embedding-based semantic similarity to compare entities, enhancing RAG-driven document retrieval and relevance.',
-      'Integrating LLMs into CLI tools via Poetry and LangChain, enabling intelligent code workflows like code optimization.',
-      'Exploring emerging techniques in interpretable NLP (attention rollouts, attribution mapping) to improve LLM traceability.',
+      'Designed token-level saliency visualizations for RAG pipelines using LangChain, OpenAI API, and PyTorch, improving explainability for technical and non-technical audiences.',
+      'Applied embedding-based semantic similarity search using FAISS and Hugging Face Transformers to enhance entity matching and improve document retrieval accuracy.',
+      'Experimenting with interpretable NLP methods (attention rollouts, attribution mapping, SHAP) to boost model traceability and decision transparency.',
     ],
   },
   {
     company: 'Tata Consultancy Services (TCS)',
     title: 'Assistant System Engineer',
-    duration: 'Jan 2024 - Jul 2024',
+    duration: 'Jun 2023 – Jul 2024',
     points: [
-      'Provided IT infrastructure support for ENI, managing user access, Azure resources, and enterprise systems across Europe.',
-      'Collaborated with DevOps and cloud teams to administer servers, optimize Azure resources, and ensure compliance with RBAC and data security protocols.',
-      'Developed Python scripts to automate ticket resolution and routine tasks via ServiceNow APIs, reducing resolution time by 30%.',
-      'Led the migration of over 1,500 user profiles, resources, and SharePoint data to new domains during organizational restructuring.',
+      'Delivered backend support for European IT operations, integrating Python scripting into enterprise systems to improve uptime, security, and compliance checks.',
+      'Automated ticket resolution and infrastructure tasks with Python scripts integrated into ServiceNow REST APIs, reducing manual workload by 4 hours/day and cutting resolution time by 30%.',
+      'Built monitoring scripts with PowerShell, Python, and Azure Monitor APIs to track uptime, detect anomalies, and speed up incident response; implemented unit testing and integration testing to validate functionality.',
+      'Created internal tooling for Azure Active Directory and RBAC policy management, strengthening authentication workflows and security governance.',
+      'Partnered with DevOps teams to manage servers and Azure resources via CLI and IaC practices, improving deployment speed, scalability, and ensuring compliance with security protocols.',
     ],
   },
   {

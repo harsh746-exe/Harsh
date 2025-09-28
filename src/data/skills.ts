@@ -3,28 +3,30 @@ import { Skill } from './types';
 export const skills: Skill[] = [
   {
     title: 'Programming Languages',
-    description: 'Python, Java, C++, C#, TypeScript, JavaScript',
+    description: 'Python, Java, C, C++, C#, TypeScript, JavaScript',
   },
   {
     title: 'Web & Frameworks',
     description:
-      'React, Node.js, Express, Flask, FastAPI, Spring Boot, Next.js, Tailwind CSS, Bootstrap',
+      'React, Tailwind, Node.js, Next.js, Express, Flask, FastAPI, Spring Boot, Selenium, JUnit, Apache Spark',
   },
   {
     title: 'Cloud & DevOps',
-    description: 'AWS (EC2, S3, DynamoDB, RDS), Azure, Docker, GitHub Actions, RBAC',
+    description:
+      'AWS (EC2, S3, DynamoDB, RDS), Azure, Docker, Kubernetes, RBAC, REST APIs, GraphQL',
   },
   {
     title: 'Databases',
-    description: 'PostgreSQL, MySQL, MongoDB, Firebase, DynamoDB',
+    description: 'PostgreSQL, MySQL, MongoDB, Firebase, DynamoDB, Redis, Kafka, Scala',
   },
   {
-    title: 'AI & LLM Tools',
-    description: 'LangChain, OpenAI API, RAG pipelines, Prompt Engineering, XAI (Explainable AI)',
+    title: 'AI & ML',
+    description:
+      'Scikit-learn, PyTorch, TensorFlow, Apache Spark, BERT, Hugging Face, OpenAI, LangChain, RAG pipelines, XAI',
   },
   {
     title: 'Tooling & Platforms',
     description:
-      'Git, Postman, Poetry, VS Code, ManageEngine, Power BI, Power Automate, ServiceNow APIs',
+      'Git, Jira, Postman, Poetry, VS Code, ManageEngine, Power BI, Power Automate, Cursor, Windsurf',
   },
 ];

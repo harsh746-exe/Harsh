@@ -2,6 +2,19 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
+    title: 'RAG-Based Capability Matrix Analysis System',
+    description:
+      'Designed and implemented a Retrieval-Augmented Generation (RAG) pipeline for intelligent document comparison and capability analysis across technical specifications, research papers, and compliance reports.',
+    tech: ['Python', 'LangChain', 'FAISS', 'Chroma', 'FastAPI', 'Docker'],
+    duration: 'Mar 2025 – Present',
+    points: [
+      'Designed and implemented a Retrieval-Augmented Generation (RAG) pipeline for intelligent document comparison and capability analysis across technical specifications, research papers, and compliance reports.',
+      'Developed backend services using LangChain, OpenAI API, and FAISS/Chroma vector stores to retrieve contextually relevant document segments with reasoning, confidence scores, and supporting evidence.',
+      'Optimized text chunking, semantic search, and vector store caching to reduce retrieval latency and improve LLM accuracy on large-scale document collections.',
+    ],
+    image: '/assets/projects/rag-system.png',
+  },
+  {
     title: 'CodeFlow-AI',
     description:
       'A CLI + web-based AI pair programmer with contextual memory using FastAPI, LangChain agents, and RAG. Multi-turn task planning and architecture suggestions via prompt chaining and user session tracking.',

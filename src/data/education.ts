@@ -3,6 +3,9 @@ import { Education } from './types';
 export const education: Education[] = [
   {
     title: 'M.S. in Computer Engineering, Syracuse University, Syracuse, NY',
+    description: [
+      'Relevant Coursework: Advanced Data Structures & Algorithms, Object-Oriented Design, Application Programming, DBMS, NLP',
+    ],
     date: 'Aug 2024 – May 2026',
   },
   {
