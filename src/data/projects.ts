@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description:
       'Designed and implemented a Retrieval-Augmented Generation (RAG) pipeline for intelligent document comparison and capability analysis across technical specifications, research papers, and compliance reports.',
     tech: ['Python', 'LangChain', 'FAISS', 'Chroma', 'FastAPI', 'Docker'],
-    duration: 'Mar 2025 – Present',
+    duration: 'Jan 2026 – Present',
     points: [
       'Designed and implemented a Retrieval-Augmented Generation (RAG) pipeline for intelligent document comparison and capability analysis across technical specifications, research papers, and compliance reports.',
       'Developed backend services using LangChain, OpenAI API, and FAISS/Chroma vector stores to retrieve contextually relevant document segments with reasoning, confidence scores, and supporting evidence.',

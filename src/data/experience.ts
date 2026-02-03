@@ -57,6 +57,17 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    company: 'VAC Reports',
+    title: 'Software Engineer, Backend and Data',
+    duration: 'Jun 2021 – Aug 2022',
+    points: [
+      'Developed and deployed FastAPI and Flask based backend services to receive field officer submissions, process applicant interviews, and store documents and images in PostgreSQL and AWS S3, improving data reliability and flow across teams.',
+      'Built scalable ETL data pipelines using Python, pandas, NumPy, and PySpark for cleaning, merging, and validating applicant and sensor datasets, increasing data consistency and report accuracy by 65%.',
+      'Automated verification logic to validate form inputs, attach GPS and timestamp metadata, and generate structured applicant reports, reducing manual verification time by 70% for field teams.',
+      'Designed asynchronous microservices using FastAPI + Celery to support background processing and improved backend reliability by restructuring data validation flows and optimizing data access patterns, reducing system failures.',
+    ],
+  },
+  {
     company: 'TCR Innovation',
     title: 'Data Engineering Intern',
     duration: 'Jun 2021 – Aug 2021',
