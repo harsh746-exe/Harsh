@@ -2,16 +2,26 @@ import { Experience } from './types';
 
 export const experiences: Experience[] = [
   {
-    company: 'iConsult Collaborative',
-    title: 'Team Lead & Software Developer',
-    duration: 'Mar 2025 – Present',
+    company: 'RELI Group Inc',
+    title: 'Platform Engineering Intern',
+    duration: 'Jan 2026 – Present',
     points: [
-      'Leading an Agile team, streamlining sprint planning, backlog grooming, and PR workflows in Jira and GitLab to boost delivery velocity and improve architecture decision cycles.',
-      'Developed and deployed a scalable, SEO-optimized web app (Next.js, TypeScript, React, Tailwind CSS) with lazy loading and SSR, achieving a Lighthouse SEO score of 95+.',
-      'Implemented client-side routing and server-rendered navigation via Next.js App Router and Context API, improving load speed and in-app UX.',
-      'Built secure RESTful backend APIs and microservices for AWS DynamoDB with Cognito-based authentication, session management, and role-based access control.',
-      'Deployed containerized CI/CD workflows with GitHub Actions, Docker, and AWS EC2, cutting deployment time by 40% and enabling zero-downtime releases with automated rollback.',
-      'Developing a high-speed API layer for AWS ElastiCache (Redis) to support real-time queries and planning Apache Kafka integration for event-driven streaming.',
+      'Built an NLP-based compliance matrix system using spaCy, PySBD, and Sentence Transformers to extract, categorize, and surface contractual requirements from SOWs, enabling proposal teams to review and track all compliance obligations.',
+      'Designed and deployed an acronym annotation and validation engine using deterministic parsing logic and the Schwartz–Hearst algorithm, replacing a $10K/year third-party subscription while improving proposal document quality and review efficiency.',
+      'Developed an RAG-based capability matrix and organizational search engine using FAISS, LangChain, and LLM-based reasoning to semantically retrieve past performance data and generate reasoning on organizational fit for new SOW requirements.',
+      'Deployed document analysis and RAG services using Azure App Service and Azure Functions, storing documents and persisted vector indexes in Azure Blob Storage, while researching data isolation, security boundaries, and responsible AI deployment to enable future governed, agentic AI workflows.',
+    ],
+  },
+  {
+    company: 'iConsult Collaborative',
+    title: 'Team Lead & Full Stack Engineer',
+    duration: 'Mar 2025 – Dec 2025',
+    points: [
+      'Led a five-member engineering team to design and ship Gymin, a real-time fitness and sensor analytics platform, improving sprint throughput by 20% through structured planning, reviews, and delivery workflows.',
+      'Built a scalable backend using Python and FastAPI to process continuous sensor and user activity streams, adding async execution, Redis caching, and a Kafka-based event pipeline to support sub-100ms API responses.',
+      'Implemented structured logging, metrics, and health checks for backend services using AWS CloudWatch, improving production visibility and speeding up incident triage for API and pipeline failures.',
+      'Developed and shipped the Gymin webapp using Next.js and React with server-side rendering and optimized routing to improve load performance; integrated Cognito authentication and RBAC for secure multi-tenant access.',
+      'Deployed containerized CI/CD workflows with Docker and GitHub Actions on AWS EC2, reducing deployment time by 40% and enabling zero-downtime releases with automated rollback.',
     ],
   },
   {
@@ -27,13 +37,12 @@ export const experiences: Experience[] = [
   {
     company: 'Tata Consultancy Services (TCS)',
     title: 'Assistant System Engineer',
-    duration: 'Jun 2023 – Jul 2024',
+    duration: 'Oct 2022 – Jul 2024',
     points: [
-      'Delivered backend support for European IT operations, integrating Python scripting into enterprise systems to improve uptime, security, and compliance checks.',
-      'Automated ticket resolution and infrastructure tasks with Python scripts integrated into ServiceNow REST APIs, reducing manual workload by 4 hours/day and cutting resolution time by 30%.',
-      'Built monitoring scripts with PowerShell, Python, and Azure Monitor APIs to track uptime, detect anomalies, and speed up incident response; implemented unit testing and integration testing to validate functionality.',
-      'Created internal tooling for Azure Active Directory and RBAC policy management, strengthening authentication workflows and security governance.',
-      'Partnered with DevOps teams to manage servers and Azure resources via CLI and IaC practices, improving deployment speed, scalability, and ensuring compliance with security protocols.',
+      'Delivered backend IT operations for ENI Energy\'s EU infrastructure by integrating automation scripts into enterprise systems, improving uptime by 15% and strengthening security compliance across 100+ servers.',
+      'Automated core backend workflows using Python, REST APIs, and ServiceNow integration, reducing manual workload by 4 hours per day and accelerating ticket resolution by 30%.',
+      'Designed monitoring and alerting microservices with Python, PowerShell, and Azure Monitor APIs to track performance and failures across 200+ servers, cutting incident detection time by 25%.',
+      'Improved system performance by refactoring legacy Python utilities into modular, reusable components and optimizing database queries and caching strategies, reducing API latency by 35% under peak load.',
     ],
   },
   {

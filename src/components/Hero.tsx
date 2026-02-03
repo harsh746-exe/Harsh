@@ -183,6 +183,14 @@ const Hero = ({
           className="fixed right-12 bottom-0 hidden lg:block"
         >
           <div className="flex flex-col items-center space-y-6">
+            {heroData.socialLinks.phone && (
+              <a
+                href={`tel:${heroData.socialLinks.phone.replace(/\s/g, '')}`}
+                className="text-[rgb(var(--text-secondary))] hover:text-[rgb(var(--primary))] hover:-translate-y-1 transition-all font-mono tracking-widest [writing-mode:vertical-rl]"
+              >
+                {heroData.socialLinks.phone}
+              </a>
+            )}
             <a
               href={`mailto:${heroData.socialLinks.email}`}
               className="text-[rgb(var(--text-secondary))] hover:text-[rgb(var(--primary))] hover:-translate-y-1 transition-all font-mono tracking-widest [writing-mode:vertical-rl]"

@@ -9,7 +9,7 @@ export const education: Education[] = [
     date: 'Aug 2024 – May 2026',
   },
   {
-    title: 'B.E. in Electronics Engineering, Mumbai University, Navi Mumbai, Maharashtra',
+    title: 'B.E. in Electronics Engineering, Mumbai University, Mumbai, India',
     date: 'Aug 2019 – May 2023',
   },
 ];
